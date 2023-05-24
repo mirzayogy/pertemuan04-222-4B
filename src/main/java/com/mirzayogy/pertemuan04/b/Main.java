@@ -1,7 +1,6 @@
 package com.mirzayogy.pertemuan04.b;
 public class Main {
     public static void main(String[] args) {
-        
         Mahasiswa adul;
         adul = new Mahasiswa();
         adul.nama = "Adul Bin Kidul";
@@ -22,7 +21,8 @@ public class Main {
         bejo.belajar();
         bejo.masukKelas();
         
-
+        Mahasiswa coky = new Mahasiswa("Coky");
+        coky.belajar();
         
     }
 }
