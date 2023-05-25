@@ -24,5 +24,9 @@ public class Main {
         Mahasiswa coky = new Mahasiswa("Coky");
         coky.belajar();
         
+        MahasiswaTransfer dodo = new MahasiswaTransfer();
+        dodo.belajar();
+        dodo.nama = "Dodo";
+        
     }
 }
