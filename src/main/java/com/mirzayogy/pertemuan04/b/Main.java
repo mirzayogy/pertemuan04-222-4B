@@ -1,4 +1,7 @@
 package com.mirzayogy.pertemuan04.b;
+
+import javax.swing.JOptionPane;
+
 public class Main {
     public static void main(String[] args) {
         Mahasiswa adul;
@@ -27,6 +30,12 @@ public class Main {
         MahasiswaTransfer dodo = new MahasiswaTransfer();
         dodo.belajar();
         dodo.nama = "Dodo";
+        
+        JOptionPane.showMessageDialog(null, "Halo");
+        JOptionPane.showMessageDialog(null, "Satu", "Dua", JOptionPane.WARNING_MESSAGE);
+        
+        
+        
         
     }
 }
